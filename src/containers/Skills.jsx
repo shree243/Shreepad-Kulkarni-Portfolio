@@ -33,38 +33,36 @@ flex-col gap-12 my-12"
         {/* content */}
 
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
-          <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r
-  from-primary to-secondary">My Skills and Work Experience </p>
+          <h1 className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r
+  from-primary to-secondary">Technical Skills</h1>
+          <h1 className="text-texlight text-base tracking-wide text-justify">
+            C#|Java|JavaScript|TypeScript
+            |C++|C|Python| Spring|SpringBoot
+          </h1>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
+            |Express|Node|EJS|Redux|jQuery|NoSQL
+            MicroService|MVC|DDD|React|Angular
+            |HTML|CSS|Bootstrap|PrimeNG|Redux
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
-          </p>
-          <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
+            Frontend|Backend|MySQL|MongoDB|Redis
+            |PostgreSQL
+            Git|Linux|Jira|Postman|Azure|CI/CD|
+            Jenkins|OPA|MonoRepo|OPA|GRPC
+            |Kafka|Junit|Lambda|OOP
           </p>
         </div>
 
         <div className="w-full flex flex-col gap-4 items-center justify-center px-8 ">
 
-          <SkillCard skills={"Java"} percentage={"95%"} color={"#FF3F3F"} move={true} />
-          <SkillCard skills={"SpringBoot"} percentage={"95%"} color={"#00008B"} move={false} />
-          <SkillCard skills={"Hibernate"} percentage={"95%"} color={"green"} move={true} />
-          <SkillCard skills={"React"} percentage={"80%"} color={"green"} move={false} />
-          <SkillCard skills={"Angular"} percentage={"80%"} color={"#A020F0"} move={true} />
-          <SkillCard skills={"NodeJs"} percentage={"90%"} color={"#FFA500"} move={false} />
-          <SkillCard skills={"MySQL"} percentage={"95%"} color={"#ADD8E6"} move={true} />
-          <SkillCard skills={"Mongo DB"} percentage={"80%"} color={"#FFC0CB"} move={false} />
+          <SkillCard skills={"Java"} color={"#FF3F3F"} move={true} />
+          <SkillCard skills={"SpringBoot"} color={"#00008B"} move={false} />
+          <SkillCard skills={"Hibernate"} color={"green"} move={true} />
+          <SkillCard skills={"React"} color={"green"} move={false} />
+          <SkillCard skills={"Angular"} color={"#A020F0"} move={true} />
+          <SkillCard skills={"NodeJs"} color={"#FFA500"} move={false} />
+          <SkillCard skills={"MySQL"} color={"#ADD8E6"} move={true} />
+          <SkillCard skills={"Mongo DB"} color={"#FFC0CB"} move={false} />
 
         </div>
       </div>

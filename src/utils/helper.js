@@ -25,27 +25,21 @@ export const Socials = [
   {
     id: `facebook-${Date.now()}`,
     Icon: FaFacebookF,
-    uri: "",
+    uri: "https://www.facebook.com/profile.php/?id=100006344310010",
     color: "#1877F2",
   },
   {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uri: "",
+    uri: "https://www.linkedin.com/in/shreepad-kulkarni8",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uri: "",
+    uri: "https://github.com/shree243",
     color: "#fff",
-  },
-  {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uri: "",
-    color: "#ff0000",
-  },
+  }
 ];
 
 export const Menus = [
@@ -83,57 +77,27 @@ export const Menus = [
 
 export const ProjectsData = [
   {
-    id: `food-${Date.now()}`,
-    name: "Single Food Restaurant",
+    id: `E-commerce Website-${Date.now()}`,
+    name: "E-commerce Website",
     imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/shree243/React-SpringBoot-E-Commerce-Project",
   },
   {
-    id: `codepen-${Date.now()}`,
-    name: "CodePen Clone",
+    id: `TIC-TAC-TOE-${Date.now()}`,
+    name: "TIC-TAC-TOE",
     imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/shree243/Tic-Tac-Toe-React-Game",
   },
   {
-    id: `openai-${Date.now()}`,
-    name: "OpenAI",
+    id: `Jenkins Deploy-${Date.now()}`,
+    name: "Jenkins Deploy",
     imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "",
   },
   {
-    id: `chatapp-${Date.now()}`,
-    name: "Chat App Build",
+    id: `Social Media-App-${Date.now()}`,
+    name: "Social Media-App",
     imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `imageSharing-${Date.now()}`,
-    name: "Image Sharing App",
-    imgSrc: ImageSharing,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `pixabayclone-${Date.now()}`,
-    name: "Pixabay Clone 2.0",
-    imgSrc: PixabayClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `freshjuiceui-${Date.now()}`,
-    name: "Fresh Juice UI Build",
-    imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `socialmedia-${Date.now()}`,
-    name: "Social Media App",
-    imgSrc: SocialMedia,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
-    imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
+    gitURL: "https://github.com/shree243/SocialMedia-website-Mern",
+  }
 ];

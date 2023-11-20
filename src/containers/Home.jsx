@@ -3,6 +3,17 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Hero } from "../assets";
 import { HeroTypeWritter, HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
+import {
+  ChatApp,
+  CodePenClone,
+  FreshJuiceUI,
+  ImageSharing,
+  OpenAI,
+  PixabayClone,
+  PortfolioFirebase,
+  RestaurantClone,
+  SocialMedia,
+} from "../assets";
 const Home = () => {
   return (
     <section
@@ -30,7 +41,7 @@ lg:items-start justify-center gap-4"
             And I'm a
             <HeroTypeWritter
               words={[
-                ["A Developer..", "a Freelancers.. ", "A businessMan..."],
+                ["A Developer..", "A SportsMan.. ", "A Musician..."],
               ]}
               speed={500}
             />
@@ -40,11 +51,13 @@ lg:items-start justify-center gap-4"
             className="text-bae text-texlight mt-6 text-center 
 lg:text-left"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            consectetur repellendus nemo tempore, eligendi facilis repellat
-            quasi? Possimus at aut perferendis placeat vel provident ea,
-            aspernatur nostrum earum saepe. Architecto?
-          </p>
+            "I'm pursuing an MSc in Computer Science at UCB,
+            UK, graduating in Jan 2025. With 3+ years at 3i
+            Infotech, I've developed regulatory applications,
+            banking systems, and spearheaded the company's cloud-based app.
+            Skilled in Java, JavaScript, Angular, React, Spring Boot, MongoDB, Azure,
+            Git, and more, I'm actively seeking software development roles starting Sept 2024.
+            Let's connect!"</p>
 
           {/* socialmedia link  */}
 
@@ -60,7 +73,7 @@ lg:text-left"
           {/* hire me option */}
 
           <a
-            href="https://github.com/ed-roh?tab=achievements"
+            // href="https://github.com/ed-roh?tab=achievements"
             style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)" }}
             className="mt-12 border border-[rgba(255,255,255,0.3)] 
             rounded-xl px-8 py-3 active:95

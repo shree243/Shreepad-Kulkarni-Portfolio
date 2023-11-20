@@ -46,22 +46,18 @@ bg-gradient-to-br from bg-primary to-secondary rounded-md blur-[5px] -z-10">
 
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
+            I am pursuing my Master of Science in Computer Science aiming to graduate in Jan 2025 from University College Birmingham (UCB), UK.
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
+            I have more than 3 years of work experience as a Software Engineer - II at 3i Infotech worked for Crisil and Maxval Technologies. I was a key contributor in developing an end-to-end regulatory applications as low-code no-code, banking systems, Employee management saving billions in penalties and pioneering the company's first cloud-based application.
+            journey through academia and the corporate world has equipped me with a diverse skill set, including proficiency in:
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            minus placeat rem recusandae repellat, veritatis quod ratione dignissimos
-            similique ex nobis accusamus dolores sapiente corrupti culpa fuga aut
-            explicabo dolorem.
+            Programming languages: Java, JavaScript, TypeScript, Python
+            Web Technologies: Angular, React ,Spring Boot, Node.js, GraphQL
+            Databases: MySQL, MongoDB
+            Miscellaneous: Microsoft Azure, Git, Jenkins, JIRA, REST APIs, GRPC, Keycloak, Monorepo, Kafka, OPA
+            I am actively seeking full time roles in software development starting in Sept 2024. Let's connect and explore opportunities!
           </p>
         </div>
       </div>
