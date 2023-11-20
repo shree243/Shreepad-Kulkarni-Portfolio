@@ -85,10 +85,7 @@ lg:text-left"
           </a>
         </div>
 
-        <div
-          className="w-full h-full flex items-center justify-center
-lg:item-center"
-        >
+        <div className="w-1/2 h-1/2 flex items-center justify-center rounded-full overflow-hidden">
           <motion.img
             initial={{ y: 0 }}
             animate={{ y: [-10, 10, -10] }}
@@ -98,7 +95,8 @@ lg:item-center"
               ease: "linear",
             }}
             src={Hero}
-            className="w-auto h-auto object-contain"
+            className="w-full h-full object-cover"
+            alt="Hero Image"
           />
         </div>
       </div>
