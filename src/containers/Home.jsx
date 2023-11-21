@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Hero } from "../assets";
 import { HeroTypeWritter, HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
+
 import {
   ChatApp,
   CodePenClone,
@@ -72,8 +73,9 @@ lg:text-left"
 
           {/* hire me option */}
 
-          <p
-            // href="https://github.com/ed-roh?tab=achievements"
+          <a
+            download="Shreepad Kulkarni Resume.pdf"
+            href="Shreepad-Kulkarni-Resume.pdf"
             style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)" }}
             className="mt-12 border border-[rgba(255,255,255,0.3)] 
             rounded-xl px-8 py-3 active:95
@@ -82,7 +84,7 @@ lg:text-left"
             <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r
     group-hover:from-primary group-hover:to-secondary">Hire Me</p>
 
-          </p>
+          </a>
         </div>
 
         <div className="w-1/2 h-1/2 flex items-center justify-center overflow-hidden">
