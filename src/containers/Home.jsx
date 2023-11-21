@@ -72,7 +72,7 @@ lg:text-left"
 
           {/* hire me option */}
 
-          <a
+          <p
             // href="https://github.com/ed-roh?tab=achievements"
             style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)" }}
             className="mt-12 border border-[rgba(255,255,255,0.3)] 
@@ -82,10 +82,10 @@ lg:text-left"
             <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r
     group-hover:from-primary group-hover:to-secondary">Hire Me</p>
 
-          </a>
+          </p>
         </div>
 
-        <div className="w-1/2 h-1/2 flex items-center justify-center rounded-full overflow-hidden">
+        <div className="w-1/2 h-1/2 flex items-center justify-center overflow-hidden">
           <motion.img
             initial={{ y: 0 }}
             animate={{ y: [-10, 10, -10] }}
@@ -95,7 +95,7 @@ lg:text-left"
               ease: "linear",
             }}
             src={Hero}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-full lg:rounded-none"
             alt="Hero Image"
           />
         </div>

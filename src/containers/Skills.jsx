@@ -45,10 +45,9 @@ flex-col gap-12 my-12"
             |HTML|CSS|Bootstrap|PrimeNG|Redux
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Frontend|Backend|MySQL|MongoDB|Redis
-            |PostgreSQL
-            Git|Linux|Jira|Postman|Azure|CI/CD|
-            Jenkins|OPA|MonoRepo|OPA|GRPC
+            Frontend|Backend|MySQL|MongoDB|Redis|PostgreSQL
+            Git|Linux|Jira|Postman|Azure|CI/CD
+            |Jenkins|OPA|MonoRepo|OPA|GRPC
             |Kafka|Junit|Lambda|OOP
           </p>
         </div>
