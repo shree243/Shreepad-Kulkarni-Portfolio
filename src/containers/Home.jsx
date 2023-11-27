@@ -39,7 +39,7 @@ lg:items-start justify-center gap-4"
 
           <h2 className="text-2xl lg:text-4xl text-texlight mt-4">
             {" "}
-            And I'm a
+            And I'm
             <HeroTypeWritter
               words={[
                 ["A Developer..", "A SportsMan.. ", "A Musician..."],
