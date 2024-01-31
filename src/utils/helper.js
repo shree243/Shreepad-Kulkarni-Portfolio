@@ -83,10 +83,10 @@ export const ProjectsData = [
     gitURL: "https://github.com/shree243/React-SpringBoot-E-Commerce-Project",
   },
   {
-    id: `TIC-TAC-TOE-${Date.now()}`,
-    name: "TIC-TAC-TOE",
+    id: `Task Manager-${Date.now()}`,
+    name: "Task Manager",
     imgSrc: CodePenClone,
-    gitURL: "https://github.com/shree243/Tic-Tac-Toe-React-Game",
+    gitURL: "https://github.com/shree243/Front-end-Task-Manager",
   },
   {
     id: `Jenkins Deploy-${Date.now()}`,

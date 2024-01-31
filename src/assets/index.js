@@ -6,7 +6,7 @@ export { default as about } from "./img/about.jpeg";
 // projects
 
 export { default as RestaurantClone } from "./img/Project/thumb_restaurant_app_mar22.jpg";
-export { default as CodePenClone } from "./img/Project/Thumb-codepen-clone.jfif";
+export { default as CodePenClone } from "./img/Project/todolist.PNG";
 export { default as OpenAI } from "./img/Project/Thumb-openai-withreactjs.PNG";
 export { default as ChatApp } from "./img/Project/Thumb-expo-chat-app.PNG";
 export { default as ImageSharing } from "./img/Project/Thumb-image-sharing-app-react-native-mar-23-updated.jpeg";
